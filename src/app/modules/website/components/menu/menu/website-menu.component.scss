@@ -1,0 +1,31 @@
+#website-menu {
+  align-items: center;
+  box-shadow: 2px 2px 4px #CCC;
+  display: flex;
+  height: 60px;
+  padding: 0 10px 0 15px;
+  position: relative;
+
+  .logo-container {
+    align-items: center;
+    display: flex;
+  }
+
+  .logo {
+    padding: 12px 0 7px 0;
+    img {
+      height: 40px;
+    }
+  }
+
+  .menu-toggle {
+    position: absolute;
+    right: 0;
+    top: 8px;
+
+    i {
+      color: #AAA;
+      padding: 15px;
+    }
+  }
+}
