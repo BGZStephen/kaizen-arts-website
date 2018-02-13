@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('kaizen-arts-website App', () => {
+describe('kaizen-arts-scss App', () => {
   let page: AppPage;
 
   beforeEach(() => {
