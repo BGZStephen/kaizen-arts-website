@@ -1,14 +1,24 @@
 #website-menu {
   align-items: center;
-  box-shadow: 2px 2px 4px #CCC;
+  background: #FFF;
+  box-sizing: border-box;
   display: flex;
   height: 60px;
-  padding: 0 10px 0 15px;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
 
   .logo-container {
     align-items: center;
+    box-shadow: -1px 2px 3px #CCC, 1px 2px 3px #CCC;
     display: flex;
+    height: 60px;
+    padding: 0 10px 0 15px;
+    position: relative;
+    width: 100%;
+    z-index: 100;
   }
 
   .logo {
@@ -20,12 +30,37 @@
 
   .menu-toggle {
     position: absolute;
-    right: 0;
-    top: 8px;
+    right: 0px;
+    top: 6px;
 
     i {
       color: #AAA;
+      font-size: 1.4em;
       padding: 15px;
+    }
+  }
+
+  #top-menu {
+    background: white;
+    left: -100%;
+    padding-top: 3px;
+    position: absolute;
+    transition: 0.3s ease all;
+    top: 60px;
+    width: 100%;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+
+      li {
+        border-bottom: 2px solid #EEE;
+        color: #999;
+        font-weight: 600;
+        padding: 12px;
+        text-transform: uppercase;
+      }
     }
   }
 }

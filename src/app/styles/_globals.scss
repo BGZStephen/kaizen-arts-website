@@ -1,1 +1,6 @@
-@import 'node_modules/normalize.css/normalize'
+@import 'node_modules/normalize.css/normalize';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
