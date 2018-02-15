@@ -9,39 +9,62 @@ import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gal
 export class HomeViewComponent implements OnInit {
   galleryOptions: NgxGalleryOptions[];
   galleryImages: NgxGalleryImage[];
+  galleryIndex: number = 0;
 
   constructor() { }
 
   ngOnInit() {
     this.galleryOptions = [
       {
-        width: 'calc(100% - 50px)',
-        height: 'calc(100vh - 140px)',
+        width: '100%',
+        height: 'calc(100vh - 60px)',
         thumbnails: false,
         // imageAnimation: NgxGalleryAnimation.Slide,
         imageArrows: false,
         preview: false,
         imageAutoPlay: true,
-        imageAutoPlayInterval: 6000,
+        imageAutoPlayInterval: 10000,
+        imageInfinityMove: true,
       },
     ];
 
     this.galleryImages = [
       {
-        small: 'http://placehold.it/320x180',
-        medium: 'http://placehold.it/640x360',
-        big: 'http://placehold.it/1280x720'
+        small: '../../../../assets/img/img-1.jpg',
+        medium: '../../../../assets/img/img-1.jpg',
+        big: '../../../../assets/img/img-1.jpg',
+        message: 'Kaizen arts',
       },
       {
-        small: 'http://placehold.it/320x180',
-        medium: 'http://placehold.it/640x360',
-        big: 'http://placehold.it/1280x720'
+        small: '../../../../assets/img/img-2.jpg',
+        medium: '../../../../assets/img/img-2.jpg',
+        big: '../../../../assets/img/img-2.jpg'
       },
       {
-        small: 'http://placehold.it/320x180',
-        medium: 'http://placehold.it/640x360',
-        big: 'http://placehold.it/1280x720'
+        small: '../../../../assets/img/img-3.jpg',
+        medium: '../../../../assets/img/img-3.jpg',
+        big: '../../../../assets/img/img-3.jpg'
       }
     ];
   }
+
+  onChange(change) {
+    this.galleryIndex = change.index;
+    console.log(change.index)
+  }
+
+  galleryMessages: Array = [
+    {
+      title: 'Welcome to Kaizen Arts',
+      message: 'Martial arts, the kaizen way',
+    },
+    {
+      title: 'Kaizen',
+      message: 'Positive change in incremental steps',
+    }
+    {
+      title: 'Pushing our potential',
+      message: 'Dare to dream, dream to succeed',
+    },
+  ]
 }

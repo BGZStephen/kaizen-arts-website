@@ -1,6 +1,12 @@
 <div class="content-wrapper">
   <div class="carousel-wrapper">
-    <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+    <div class="gallery-text-wrapper">
+      <div class="gallery-text">
+        <h3>{{galleryMessages[galleryIndex].title}}</h3>
+        <p>{{galleryMessages[galleryIndex].message}}</p>
+      </div>
+    </div>
+    <ngx-gallery [options]="galleryOptions" [images]="galleryImages" (change)="onChange($event)"></ngx-gallery>
   </div>
   <div class="content">
     <h1>Home</h1>
