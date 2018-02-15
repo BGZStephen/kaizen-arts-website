@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { NgxGalleryModule } from 'ngx-gallery';
 
 // modules
 import { WebsiteModule } from './modules/website/website.module';
@@ -19,6 +20,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     WebsiteModule,
     AppRoutes,
+    NgxGalleryModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
