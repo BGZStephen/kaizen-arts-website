@@ -61,7 +61,7 @@ export class HomeViewComponent implements OnInit {
     {
       title: 'Kaizen',
       message: 'Positive change in incremental steps',
-    }
+    },
     {
       title: 'Pushing our potential',
       message: 'Dare to dream, dream to succeed',
