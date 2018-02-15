@@ -7,9 +7,43 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WebsiteMenuComponent implements OnInit {
 
+  menuOpen: boolean = true;
+
   constructor() { }
 
   ngOnInit() {
+    this.menuOpenCheck();
+  }
+
+  toggleMenuOpen() {
+    this.menuOpen = !this.menuOpen;
+    console.log('working')
+  }
+
+  onResize() {
+    this.menuOpenCheck()
+  }
+
+  menuOpenCheck() {
+    if (screen.width < 720) {
+      return this.menuOpen = false;
+    }
+
+    this.menuOpen = true;
+  }
+
+  menuStyle() {
+    if (this.menuOpen && screen.width <= 720) {
+      return {'left': '0'}
+    }
+
+    if (!this.menuOpen && screen.width <= 720) {
+      return {'left': '-100%'}
+    }
+
+    if (this.menuOpen && screen.width > 720) {
+      return {'top': '0'}
+    }
   }
 
 }

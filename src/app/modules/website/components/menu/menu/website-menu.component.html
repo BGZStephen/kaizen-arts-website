@@ -1,17 +1,17 @@
-<div id="website-menu">
+<div id="website-menu" (window:resize)="onResize()">
   <div class="logo-container">
     <div class="logo">
       <img src="assets/img/logo.png">
     </div>
   </div>
   <div class="menu-toggle">
-    <i class="fa fa-bars"></i>
+    <i class="fa fa-bars" (click)="toggleMenuOpen()"></i>
   </div>
-  <nav id="top-menu">
+  <nav id="top-menu" [ngStyle]="menuStyle()">
     <ul>
-      <li>Home</li>
-      <li>About us</li>
-      <li>Contact us</li>
+      <li routerLink="/">Home</li>
+      <li routerLink="/about">About us</li>
+      <li routerLink="/contact">Contact us</li>
     </ul>
   </nav>
 </div>

@@ -32,11 +32,16 @@
     position: absolute;
     right: 0px;
     top: 6px;
+    z-index: 105;
 
     i {
       color: #AAA;
       font-size: 1.4em;
       padding: 15px;
+    }
+
+    @media(min-width: 720px) {
+      display: none;
     }
   }
 
