@@ -17,7 +17,6 @@ export class WebsiteMenuComponent implements OnInit {
 
   toggleMenuOpen() {
     this.menuOpen = !this.menuOpen;
-    console.log('working')
   }
 
   onResize() {

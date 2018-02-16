@@ -3,3 +3,4 @@ export { HomeViewComponent } from 'app/modules/website/components/home/view/home
 export { WebsiteMenuComponent } from 'app/modules/website/components/menu/menu/website-menu.component';
 export { AboutViewComponent } from 'app/modules/website/components/about/view/about-view.component';
 export { ContactViewComponent } from 'app/modules/website/components/contact/view/contact-view.component';
+export { HomeSeperatorComponent } from 'app/modules/website/components/home/seperator/home-seperator.component';

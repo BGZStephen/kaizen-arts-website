@@ -11,6 +11,12 @@ export class HomeViewComponent implements OnInit {
   galleryImages: NgxGalleryImage[];
   galleryIndex: number = 0;
 
+  seperatorOptions = {
+    heading: 'I\'m a test one',
+    text: 'I\'m a test test box',
+    color: 'red'
+  }
+
   constructor() { }
 
   ngOnInit() {

@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { NgxGalleryModule } from 'ngx-gallery';
 import * as components from 'app/modules/website/components/components-barrel';
 
-import { AppRoutes } from 'app/app.routes';
+import { AppRoutes } from 'app/app.routes'; 
 
 @NgModule({
   declarations: [
@@ -12,6 +12,7 @@ import { AppRoutes } from 'app/app.routes';
     components.WebsiteViewWrapperComponent,
     components.AboutViewComponent,
     components.ContactViewComponent,
+    components.HomeSeperatorComponent,
   ],
   imports: [
     BrowserModule,
