@@ -33,7 +33,6 @@ export class HomeViewComponent implements OnInit {
         small: '../../../../assets/img/img-1.jpg',
         medium: '../../../../assets/img/img-1.jpg',
         big: '../../../../assets/img/img-1.jpg',
-        message: 'Kaizen arts',
       },
       {
         small: '../../../../assets/img/img-2.jpg',
@@ -50,10 +49,9 @@ export class HomeViewComponent implements OnInit {
 
   onChange(change) {
     this.galleryIndex = change.index;
-    console.log(change.index)
   }
 
-  galleryMessages: Array = [
+  galleryMessages: Array<object> = [
     {
       title: 'Welcome to Kaizen Arts',
       message: 'Martial arts, the kaizen way',

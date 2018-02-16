@@ -19,6 +19,11 @@
     position: relative;
     width: 100%;
     z-index: 100;
+
+    @media(min-width: 720px) {
+      box-shadow: none;
+      width: auto;
+    }
   }
 
   .logo {
@@ -61,11 +66,47 @@
 
       li {
         border-bottom: 2px solid #EEE;
+        box-sizing: border-box;
         color: #999;
+        cursor: pointer;
         font-weight: 600;
         padding: 12px;
         text-transform: uppercase;
+
+
+        @media (min-width: 720px) {
+          border-bottom: 0;
+          height: 28px;
+          margin: 0 5px;
+          padding: 5px 0;
+          
+          &:hover {
+            border-bottom: 2px solid darken(red, 8%);
+          }
+        }
+      }
+
+      li.active {
+        @media (min-width: 720px) {
+          border-bottom: 2px solid darken(red, 8%);
+        }
+      }
+
+      @media (min-width: 720px) {
+        display: flex;
+        align-items: center;
       }
     }
+
+    @media(min-width: 720px) {
+      position: relative;
+      left: 0;
+      top: 0;
+      width: auto;
+    }
+  }
+
+  @media(min-width: 720px) {
+    box-shadow: -1px 2px 3px #AAA, 1px 2px 3px #CCC
   }
 }
