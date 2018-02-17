@@ -1,0 +1,8 @@
+.features-container {
+  display: flex;
+  padding: 60px 80px;
+
+  app-home-feature {
+    width: calc(100% / 3);
+  }
+}
