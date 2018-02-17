@@ -12,8 +12,8 @@ export class HomeViewComponent implements OnInit {
   galleryIndex: number = 0;
 
   seperatorOptions = {
-    heading: 'I\'m a test one',
-    text: 'I\'m a test test box',
+    heading: 'Kaizen Arts',
+    text: 'Think, act, believe, become.',
     color: 'red'
   }
 

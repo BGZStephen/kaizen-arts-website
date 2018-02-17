@@ -7,9 +7,9 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HomeSeperatorComponent implements OnInit {
   @Input() options: object = {
-    heading: 'Test heading',
-    text: 'I\'m some test text',
-    color: 'red',
+    heading: '',
+    text: '',
+    color: '',
   }
 
   constructor() { }
