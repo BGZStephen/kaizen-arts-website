@@ -1,8 +1,19 @@
 .features-container {
   display: flex;
-  padding: 60px 80px;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 60px 0;
+  max-width: 1200px;
 
   app-home-feature {
-    width: calc(100% / 3);
+    width: 100%;
+
+    @media(min-width: 768px) {
+      width: calc(100% / 4);
+    }
+  }
+
+  @media(min-width: 768px) {
+    flex-direction: row;
   }
 }

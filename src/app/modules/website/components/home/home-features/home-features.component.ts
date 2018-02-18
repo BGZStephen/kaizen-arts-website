@@ -23,17 +23,20 @@ export class HomeFeaturesComponent implements OnInit {
       {
         icon: 'fa fa-smile fa-3x',
         title: 'Correct Ethics',
-        text: 'I\'m some feature text 1'
+        text: `We focus on teaching ethics, such as respect, self restraint,
+               pursuit of ongoing excellence, compassion, strength of character and self belief.`
       },
       {
         icon: 'fa fa-comment fa-3x',
         title: 'Kaizen',
-        text: 'I\'m some feature text 2'
+        text: `There are other resources and lessons for outside of the Dojo,
+               which you can tap into and use while at home.`
       },
       {
         icon: 'fa fa-paint-brush fa-3x',
         title: 'Art',
-        text: 'I\'m some feature text 3'
+        text: `This is an art-form, while science is involved,
+               so is the mystery of life and the courage required to dare to strive for ones potential.`
       },
     ]
   }

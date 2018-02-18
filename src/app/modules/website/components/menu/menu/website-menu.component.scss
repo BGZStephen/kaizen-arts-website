@@ -34,16 +34,10 @@
   }
 
   .menu-toggle {
-    position: absolute;
-    right: 0px;
-    top: 6px;
-    z-index: 105;
-
-    i {
-      color: #AAA;
-      font-size: 1.4em;
-      padding: 15px;
-    }
+    margin-left: auto;
+    color: #777;
+    padding-top: 5px;
+    padding-right: 5px;
 
     @media(min-width: 720px) {
       display: none;
@@ -81,14 +75,14 @@
           padding: 5px 0;
 
           &:hover {
-            border-bottom: 2px solid #b0dbfb;
+            border-bottom: 2px solid #3F51B5;
           }
         }
       }
 
       li.active {
         @media (min-width: 720px) {
-          border-bottom: 2px solid #b0dbfb;
+          border-bottom: 2px solid #3F51B5;
         }
       }
 
