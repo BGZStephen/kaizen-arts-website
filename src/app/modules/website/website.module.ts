@@ -4,6 +4,7 @@ import { NgxGalleryModule } from 'ngx-gallery';
 import * as components from 'app/modules/website/components/components-barrel';
 
 import { AppRoutes } from 'app/app.routes';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { AppRoutes } from 'app/app.routes';
     components.HomeFeaturesComponent,
     components.HomeFeatureComponent,
     components.HomeActionsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
