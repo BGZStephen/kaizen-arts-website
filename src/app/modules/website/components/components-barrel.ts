@@ -1,9 +1,10 @@
 export { WebsiteViewWrapperComponent } from 'app/modules/website/components/view-wrapper/website-view-wrapper.component';
 export { HomeViewComponent } from 'app/modules/website/components/home/view/home-view.component';
 export { WebsiteMenuComponent } from 'app/modules/website/components/menu/menu/website-menu.component';
-export { AboutViewComponent } from 'app/modules/website/components/about/view/about-view.component';
+export { AboutKaizenViewComponent } from 'app/modules/website/components/about-kaizen/view/about-kaizen-view.component';
 export { ContactViewComponent } from 'app/modules/website/components/contact/view/contact-view.component';
 export { HomeSeperatorComponent } from 'app/modules/website/components/home/seperator/home-seperator.component';
 export { HomeFeaturesComponent } from 'app/modules/website/components/home/features/home-features.component';
 export { HomeFeatureComponent } from 'app/modules/website/components/home/feature/home-feature.component';
 export { HomeActionsComponent } from 'app/modules/website/components/home/actions/home-actions.component';
+export { AboutJamesViewComponent } from 'app/modules/website/components/about-james/view/about-james-view.component';

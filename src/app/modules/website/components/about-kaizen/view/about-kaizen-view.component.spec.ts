@@ -1,9 +1,9 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AboutViewComponent } from './about-view.component';
+import { AboutKaizenViewComponent } from './about-view.component';
 
 describe('AboutViewComponent', () => {
-  let component: AboutViewComponent;
+  let component: AboutKaizenViewComponent;
   let fixture: ComponentFixture<AboutViewComponent>;
 
   beforeEach(async(() => {
