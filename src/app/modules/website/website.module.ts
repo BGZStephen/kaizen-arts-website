@@ -6,6 +6,7 @@ import * as components from 'app/modules/website/components/components-barrel';
 import { AppRoutes } from 'app/app.routes';
 import { FooterComponent } from './components/footer/footer.component';
 
+
 @NgModule({
   declarations: [
     components.HomeViewComponent,
@@ -18,6 +19,7 @@ import { FooterComponent } from './components/footer/footer.component';
     components.HomeFeatureComponent,
     components.HomeActionsComponent,
     components.AboutJamesViewComponent,
+    components.ContactFormComponent,
     FooterComponent,
   ],
   imports: [

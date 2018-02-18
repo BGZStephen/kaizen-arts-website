@@ -8,3 +8,4 @@ export { HomeFeaturesComponent } from 'app/modules/website/components/home/featu
 export { HomeFeatureComponent } from 'app/modules/website/components/home/feature/home-feature.component';
 export { HomeActionsComponent } from 'app/modules/website/components/home/actions/home-actions.component';
 export { AboutJamesViewComponent } from 'app/modules/website/components/about-james/view/about-james-view.component';
+export { ContactFormComponent } from 'app/modules/website/components/contact/form/contact-form.component';

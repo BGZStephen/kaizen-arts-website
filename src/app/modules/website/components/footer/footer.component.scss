@@ -28,6 +28,7 @@
           margin: 5px 0;
 
           a {
+            color: #EEE;
             cursor: pointer;
             text-decoration: none;
             transition: 0.3s ease all;
@@ -74,7 +75,7 @@
         }
       }
     }
-    
+
     @media(min-width: 768px) {
       flex-direction: row;
     }
