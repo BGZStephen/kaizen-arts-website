@@ -4,8 +4,6 @@ import { NgxGalleryModule } from 'ngx-gallery';
 import * as components from 'app/modules/website/components/components-barrel';
 
 import { AppRoutes } from 'app/app.routes';
-import { HomeFeaturesComponent } from './components/home/home-features/home-features.component';
-import { HomeFeatureComponent } from './components/home/home-feature/home-feature.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +13,8 @@ import { HomeFeatureComponent } from './components/home/home-feature/home-featur
     components.AboutViewComponent,
     components.ContactViewComponent,
     components.HomeSeperatorComponent,
-    HomeFeaturesComponent,
-    HomeFeatureComponent,
+    components.HomeFeaturesComponent,
+    components.HomeFeatureComponent,
   ],
   imports: [
     BrowserModule,
