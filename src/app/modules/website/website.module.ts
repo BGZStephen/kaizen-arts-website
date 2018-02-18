@@ -15,6 +15,7 @@ import { AppRoutes } from 'app/app.routes';
     components.HomeSeperatorComponent,
     components.HomeFeaturesComponent,
     components.HomeFeatureComponent,
+    components.HomeActionsComponent,
   ],
   imports: [
     BrowserModule,

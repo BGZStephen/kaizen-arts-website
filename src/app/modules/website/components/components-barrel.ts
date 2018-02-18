@@ -6,3 +6,4 @@ export { ContactViewComponent } from 'app/modules/website/components/contact/vie
 export { HomeSeperatorComponent } from 'app/modules/website/components/home/seperator/home-seperator.component';
 export { HomeFeaturesComponent } from 'app/modules/website/components/home/features/home-features.component';
 export { HomeFeatureComponent } from 'app/modules/website/components/home/feature/home-feature.component';
+export { HomeActionsComponent } from 'app/modules/website/components/home/actions/home-actions.component';

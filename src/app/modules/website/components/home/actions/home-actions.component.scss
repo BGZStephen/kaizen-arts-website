@@ -1,0 +1,59 @@
+.actions-container {
+  align-items: center;
+  display: flex;
+  padding: 0 0 20px 0;
+
+  .buttons-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+
+
+    button {
+      border: 0;
+      color: white;
+      font-size: 1.2em;
+      padding: 8px 16px;
+      margin: 15px 15px;
+      border-radius: 5px;
+      transition: 0.2s ease all;
+
+      &.contact {
+        background: #E57373;
+        border-bottom: 4px solid darken(#E57373, 5%);
+
+        &:hover {
+          border-top: 3px solid white;
+          border-bottom: 1px solid darken(#E57373, 5%);
+        }
+      },
+
+      &.about {
+        background: #81C784;
+        border-bottom: 4px solid darken(#81C784, 5%);
+
+        &:hover {
+          border-top: 3px solid white;
+          border-bottom: 1px solid darken(#81C784, 5%);
+        }
+      }
+
+      @media(min-width: 768px) {
+        padding: 10px 25px;
+      }
+    }
+
+    @media(min-width: 768px) {
+      height: 85px;
+      font-size: 1.2em;
+      flex-direction: row;
+    }
+  }
+
+  @media(min-width: 768px) {
+    flex-direction: row;
+    padding: 20px 0 60px 0;
+  }
+}
